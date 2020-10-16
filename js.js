@@ -14,13 +14,13 @@ $(function() {
             itemDiv.append(img)
             const title = $('<h3 class="booktitle"></h3>').text(data.title);
             itemDiv.append(title)
-            const author = $('<p class="desc"></p>').text(data.author);
+            const author = $('<p class="author"></p>').text(data.author);
             itemDiv.append(author)
             const primary = $('<p class="primary"></p>').text(data.primary );
             itemDiv.append(primary )
             const desc = $('<p class="desc"></p>').text(data.desc);
             itemDiv.append(desc)
-            const amazon = $('<a>Amazon</a>').attr("href",data.amazon);
+            const amazon = $('<a></a>').attr("href",data.amazon);
             itemDiv.append(amazon)
 
             $(".list").append(itemDiv);
@@ -59,11 +59,6 @@ $(function() {
 
             })
         })
-        data.push({
-            list_name: response.results.list_name,
-            published_date : response.results.published_date
-        })
-
         return data;
     }
 
