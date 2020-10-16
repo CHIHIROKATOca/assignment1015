@@ -1,0 +1,90 @@
+zhtml{
+    box-sizing: border-box;
+}
+*,
+*:before , *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:0.05em;
+    font-weight: 200;
+    color:rgb(72, 71, 66);
+    margin:0 auto;
+    padding:50px;
+    height: 100%;
+
+}
+main{
+    margin:0 auto;
+    padding:0;
+}
+p {
+    margin:0 auto;
+    padding:0;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Playfair Display', serif;
+    letter-spacing:0.1em;
+    font-feature-settings: "palt";
+    margin:0 auto;
+    padding:0;
+}
+img {
+    max-width:100%;
+    margin:0 auto;
+    height:auto;
+    display: block;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.title{
+    font-size: 20px;
+    background-color: black;
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rank{
+    text-align: center;
+    margin: 30px auto;
+    padding: 0;
+    color: rgb(100, 100, 100);
+    font-size: 50px;
+}
+
+.bookimg{
+    width: 30%;
+}
+
+.list{
+    text-align: center;
+}
+
+
+.booktitle{
+    margin-top: 40px;
+    font-size: 25px;
+}
+.primary{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.desc{
+    margin-top:10px;
+    margin-bottom: 20px;
+    width: 50%;
+
+}
